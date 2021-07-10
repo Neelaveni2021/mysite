@@ -1,13 +1,17 @@
 import React from 'react';
-import { Link } from 'gatsby'
+
 import Layout from '../Components/layout'
+import { StaticImage } from 'gatsby-plugin-image';
 
 const Homepage = () => {
   return (
 
     <Layout pageTitle='Home' pageHeading='Home Page' children>
-           Welcome to my page
+         <h1>welcome to home page</h1>  
+         
+         
       </Layout>
+      
   )
     
     
